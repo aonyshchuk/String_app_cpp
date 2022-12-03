@@ -5,15 +5,15 @@ int main()
 {
    //Завдання 4. Дан рядок символів. Необхідно перевірити, чи є цей рядок паліндромом.
 
-	string str;
+	char s[];
 	cout << "Enter the word-> ";
-	cin >> str;
+	cin >> s;
 
-	int len = strlen(str);
+	int len = strlen(s);
 
 	for (int i = 0; i < len/2; ++i)
 	{
-		if (str[i] != str[len - i - 1])
+		if (s[i] != s[len - i - 1])
 		{
 			return false;
 		}
