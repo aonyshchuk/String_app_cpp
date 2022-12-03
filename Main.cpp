@@ -4,11 +4,12 @@ using namespace std;
 int main()
 {
     char s[] = "You should calculate the amount of words in this sentence";
-    
+
     int i;
     int k; 
     bool t; 
-
+    
+  
     k = 0; 
     t = true; 
 
