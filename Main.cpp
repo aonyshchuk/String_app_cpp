@@ -5,7 +5,7 @@ int main()
 {
     string str = "Hello World";
     int index = 5;
-    char replacement = '/t';
+    char replacement = '\t';
 
     str[index] = replacement;
 
