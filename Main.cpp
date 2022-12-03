@@ -3,27 +3,24 @@ using namespace std;
 
 int main()
 {
-    char s[59] = "You should calculate the amount of words in this sentence.";
+    char s[] = "You should calculate the amount of words in this sentence.";
 
     int i;
     int k; 
-    bool f; 
+    bool t; 
 
     k = 0; 
-    f = true;
+    t = true;
   
     for (i = 0; i < strlen(s); i++)
         if ((s[i] == ' ') || (s[i] == ',') || (s[i] == '.'))
         {
-            f = true; 
+            t = true; 
         }
         else
         {
-            if (f)
-            {
-                k++;
-                f = false;
-            }
+                t = false;
+            
         }
 
 
